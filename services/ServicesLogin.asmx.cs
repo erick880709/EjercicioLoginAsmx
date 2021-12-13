@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EjercicioLoginAsmx.BL;
+using EjercicioLoginAsmx.model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +18,7 @@ namespace EjercicioLoginAsmx.services
     // [System.Web.Script.Services.ScriptService]
     public class ServicesLogin : System.Web.Services.WebService
     {
+        UsuarioBL usuarioBl = new UsuarioBL();
 
         [WebMethod]
         public string HelloWorld()
@@ -25,7 +28,22 @@ namespace EjercicioLoginAsmx.services
         [WebMethod]
         public string Login(string user, string password)
         {
-            return "Hola a todos";
+            string resul = "";
+            Usuario users = new Usuario();
+            if (!string.IsNullOrEmpty(user) && !string.IsNullOrEmpty(password))
+            {
+                users = usuarioBl.ExisteUsuario(user, password);
+
+                if(users != null)
+                {
+                    resul = "200";
+                }
+                else
+                {
+                    resul = "203";
+                }
+            }
+            return resul;
         }
     }
 }

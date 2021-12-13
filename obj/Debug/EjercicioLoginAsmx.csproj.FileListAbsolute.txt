@@ -58,6 +58,5 @@ E:\Erick\ProyectC#\EjercicioLoginAsmx\EjercicioLoginAsmx\bin\EntityFramework.Sql
 E:\Erick\ProyectC#\EjercicioLoginAsmx\EjercicioLoginAsmx\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Erick\ProyectC#\EjercicioLoginAsmx\EjercicioLoginAsmx\obj\Debug\EjercicioLoginAsmx.csproj.AssemblyReference.cache
 E:\Erick\ProyectC#\EjercicioLoginAsmx\EjercicioLoginAsmx\obj\Debug\EjercicioLoginAsmx.csproj.CoreCompileInputs.cache
-E:\Erick\ProyectC#\EjercicioLoginAsmx\EjercicioLoginAsmx\obj\Debug\EjercicioLoginAsmx.csproj.CopyComplete
 E:\Erick\ProyectC#\EjercicioLoginAsmx\EjercicioLoginAsmx\obj\Debug\EjercicioLoginAsmx.dll
 E:\Erick\ProyectC#\EjercicioLoginAsmx\EjercicioLoginAsmx\obj\Debug\EjercicioLoginAsmx.pdb
