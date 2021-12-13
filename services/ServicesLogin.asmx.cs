@@ -22,5 +22,10 @@ namespace EjercicioLoginAsmx.services
         {
             return "Hola a todos";
         }
+        [WebMethod]
+        public string Login(string user, string password)
+        {
+            return "Hola a todos";
+        }
     }
 }
